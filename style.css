@@ -4,7 +4,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 body {
-    background: linear-gradient(180deg, #5f46da 0%, #3e9dad 100%);
+    background-color: #5f7e8f;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ body {
     display: none;
 }
 .container {
-    background-color: #645fc4;
+    background: #1f515a;
     box-shadow: rgba(0, 0, 0, .24) 0px 3px 8px;
     padding: 2rem;
     color: #fdfdfd;
@@ -43,6 +43,16 @@ body {
     border-radius: 5px;
     cursor: pointer;
 
+}
+.form button:hover {
+    padding: .8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #428cb4;
+    color: #fdfdfd;
 }
 /*Clima*/
 #weather-data {
